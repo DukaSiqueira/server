@@ -43,6 +43,8 @@ Certifique-se de configurar as seguintes variáveis de ambiente:
 - `DB_NAME`: Nome do banco de dados.
 - `JWT_SECRET`: Chave secreta para geração de tokens JWT.
 
+Lembrando que ao rodar via Docker alguns desses valores já estão definidos no Serviço do MySQL.
+
 ## Uso
 
 1. Acesse as rotas API:
@@ -54,6 +56,7 @@ Certifique-se de configurar as seguintes variáveis de ambiente:
 - `DELETE /api/users/:id`: Excluir um usuário. Apenas quando autenticado.
 - `POST /api/login`: Autenticar um usuário e obter um token JWT.
 
+# Sobre a Arquitetura
 ## Componentes Principais
 - `Node.js:` O Node.js é a plataforma escolhida para este projeto devido à sua eficiência no desenvolvimento de aplicativos back-end e sua capacidade de lidar com um grande número de conexões simultâneas de forma escalável.
 

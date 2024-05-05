@@ -33,6 +33,16 @@ Além disso, foi adicionada uma camada de serviço (Service) para abstrair e enc
     docker-compose up ou docker-compose up -d para rodar em nodemon
 ```
 
+## Variáveis de Ambiente
+
+Certifique-se de configurar as seguintes variáveis de ambiente:
+
+- `DB_HOST`: Host do banco de dados.
+- `DB_USER`: Usuário do banco de dados.
+- `DB_PASSWORD`: Senha do banco de dados.
+- `DB_NAME`: Nome do banco de dados.
+- `JWT_SECRET`: Chave secreta para geração de tokens JWT.
+
 ## Uso
 
 1. Acesse as rotas API:
@@ -43,16 +53,6 @@ Além disso, foi adicionada uma camada de serviço (Service) para abstrair e enc
 - `PUT /api/users/:id`: Atualizar um usuário existente. Apenas quando autenticado.
 - `DELETE /api/users/:id`: Excluir um usuário. Apenas quando autenticado.
 - `POST /api/login`: Autenticar um usuário e obter um token JWT.
-
-## Variáveis de Ambiente
-
-Certifique-se de configurar as seguintes variáveis de ambiente:
-
-- `DB_HOST`: Host do banco de dados.
-- `DB_USER`: Usuário do banco de dados.
-- `DB_PASSWORD`: Senha do banco de dados.
-- `DB_NAME`: Nome do banco de dados.
-- `JWT_SECRET`: Chave secreta para geração de tokens JWT.
 
 ## Componentes Principais
 - `Node.js:` O Node.js é a plataforma escolhida para este projeto devido à sua eficiência no desenvolvimento de aplicativos back-end e sua capacidade de lidar com um grande número de conexões simultâneas de forma escalável.

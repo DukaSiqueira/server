@@ -22,7 +22,7 @@ git clone https://github.com/DukaSiqueira/server.git
 cd server
 ```
 
-4. Instale as dependências do projeto
+3. Instale as dependências do projeto
 
 ```js
 npm install
@@ -31,6 +31,12 @@ npm install
 4. Inicie o ambiente Docker-compose:
 ```docker
 docker-compose up ou docker-compose up -d para rodar em nodemon
+```
+
+5. Reinicie o serviço Node:
+Isso garante que a conexão entre a aplicação e o banco de dados ocorra de forma correta.
+```docker
+docker restart app
 ```
 
 ## Variáveis de Ambiente

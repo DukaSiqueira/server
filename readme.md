@@ -1,6 +1,6 @@
 # CRUD de usuários em NODE
 
-Este é um projeto desenvolvido em Node.js utilizando Express como controlador de rotas, Sequelize como ORM e jsonwebtoken para geração de tokens JWT. O projeto é executado em um ambiente Docker-compose.
+Este é um projeto desenvolvido em Node.js utilizando Express como controlador de rotas, Sequelize como ORM e jsonwebtoken para geração de tokens JWT. O projeto é executado em um ambiente Docker.
 
 ## Requisitos
 

@@ -11,7 +11,7 @@ Este é um projeto desenvolvido em Node.js utilizando Express como controlador d
 
 1. Clone o repositório:
 ```git
-    git clone url ...
+    git clone https://github.com/DukaSiqueira/server.git
 ```
 
 2. Instale as dependências do projeto

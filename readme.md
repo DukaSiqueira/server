@@ -14,23 +14,23 @@ Além disso, foi adicionada uma camada de serviço (Service) para abstrair e enc
 
 1. Clone o repositório:
 ```git
-    git clone https://github.com/DukaSiqueira/server.git
+git clone https://github.com/DukaSiqueira/server.git
 ```
 
 2. Acesse o repositório
 ```cmd
-    cd server
+cd server
 ```
 
 4. Instale as dependências do projeto
 
 ```js
-    npm install
+npm install
 ```
 
 4. Inicie o ambiente Docker-compose:
 ```docker
-    docker-compose up ou docker-compose up -d para rodar em nodemon
+docker-compose up ou docker-compose up -d para rodar em nodemon
 ```
 
 ## Variáveis de Ambiente

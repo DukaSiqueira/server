@@ -43,7 +43,7 @@ Certifique-se de configurar as seguintes variáveis de ambiente:
 - `DB_NAME`: Nome do banco de dados.
 - `JWT_SECRET`: Chave secreta para geração de tokens JWT.
 
-Lembrando que ao rodar via Docker alguns desses valores já estão definidos no Serviço do MySQL.
+Lembrando que ao rodar via Docker alguns desses valores já estão definidos no Serviço do MySQL. Outro ponto importante é que ao rodar localmente o Sequelize fica responsável por criar a abela de usuários caso ela não exista.
 
 ## Uso
 
